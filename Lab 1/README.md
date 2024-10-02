@@ -27,9 +27,9 @@ Lors de la création de la VM, Azure te proposera des tailles. Pour un test simp
 Assure-toi que les ports suivants sont ouverts :
 RDP (3389) pour la VM Windows.
 SSH (22) pour la VM Linux.
-![alt text](<Capture d’écran 2024-10-02 à 10.27.34.png>)
-![alt text](<Capture d’écran 2024-10-02 à 10.27.52.png>)
-![alt text](<Capture d’écran 2024-10-02 à 10.29.00.png>)
+![alt text](Capture d’écran 2024-10-02 à 10.27.34.png)
+![alt text](Capture d’écran 2024-10-02 à 10.27.52.png)
+![alt text](Capture d’écran 2024-10-02 à 10.29.00.png)
 
 
 3. Se connecter aux VMs à l’aide de RDP et SSH
