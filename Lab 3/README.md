@@ -30,4 +30,3 @@ Dans le tableau de bord de ton App Service Web App, va dans Paramètres > Domain
 Clique sur Ajouter un domaine personnalisé.
 ![alt text](<Capture d’écran 2024-10-02 à 14.01.35.png>)
 ![alt text](<Capture d’écran 2024-10-02 à 14.03.36.png>)
-
