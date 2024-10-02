@@ -16,3 +16,7 @@ Méthodes HTTP : Choisis les méthodes HTTP que la fonction doit accepter (par e
 Autorisation : Choisis le type d'autorisation (par exemple, Anonymous pour permettre des appels sans clé API ou Function pour plus de sécurité).
 
 ![alt text](<Capture d’écran 2024-10-02 à 19.56.00.png>)
+![alt text](<Capture d’écran 2024-10-02 à 20.01.30.png>)
+
+![alt text](<Capture d’écran 2024-10-02 à 20.07.00.png>)
+![alt text](<Capture d’écran 2024-10-02 à 20.07.49.png>)
