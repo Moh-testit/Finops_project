@@ -65,3 +65,19 @@ az storage blob list --container-name mycontainer --account-name lab4storageacco
 3. Configurer des signatures d'accès partagé (SAS) pour un accès sécurisé
 Créer une SAS via le portail Azure :
 Accède à ton compte de stockage et clique sur Signatures d'accès partagé dans le menu de gauche.
+
+![alt text](<Capture d’écran 2024-10-02 à 15.32.53.png>)
+
+Clique sur Générer la signature d'accès partagé et les URL.
+Copie l'URL SAS générée ou la chaîne de signature et partage-la pour donner accès aux blobs de manière sécurisée.
+![alt text](<Capture d’écran 2024-10-02 à 15.33.33.png>)
+
+Créer une SAS via Azure CLI :
+Pour générer une SAS avec Azure CLI, utilise la commande suivante :
+
+az storage blob generate-sas --account-name lab4storageaccount --container-name mycontainer --name blobname --permissions r --expiry 2024-10-05 --output tsv
+
+Cette commande génère une SAS pour un blob spécifique avec des permissions de lecture qui expire le 5 octobre 2024.
+
+Utilise l'URL du blob avec la SAS pour accéder au fichier :
+https://lab4storageaccount.blob.core.windows.net/mycontainer/blobname?sas_token
