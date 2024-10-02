@@ -81,3 +81,14 @@ Cette commande génère une SAS pour un blob spécifique avec des permissions de
 
 Utilise l'URL du blob avec la SAS pour accéder au fichier :
 https://lab4storageaccount.blob.core.windows.net/mycontainer/blobname?sas_token
+
+
+4. Implémenter des politiques de gestion du cycle de vie
+
+Configurer la gestion du cycle de vie dans le portail Azure :
+Accède à ton compte de stockage.
+Dans le menu de gauche, sous Services de données, clique sur Gestion du cycle de vie.
+Clique sur + Ajouter une règle pour créer une nouvelle règle.
+
+Active la règle et clique sur Enregistrer.
+![alt text](<Capture d’écran 2024-10-02 à 15.51.45.png>)
