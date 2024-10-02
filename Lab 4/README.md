@@ -93,3 +93,6 @@ Clique sur + Ajouter une règle pour créer une nouvelle règle.
 Active la règle et clique sur Enregistrer.
 ![alt text](<Capture d’écran 2024-10-02 à 15.51.45.png>)
 ![alt text](<Capture d’écran 2024-10-02 à 15.53.04.png>)
+Active la règle et clique sur Enregistrer.
+![alt text](<Capture d’écran 2024-10-02 à 15.54.15.png>)
+![alt text](<Capture d’écran 2024-10-02 à 15.54.55.png>)
