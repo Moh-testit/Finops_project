@@ -15,3 +15,6 @@ Accéder aux paramètres de pare-feu :
 Une fois la base de données SQL déployée, accède à ton serveur SQL dans le portail Azure.
 Dans le menu de gauche, sous Sécurité, clique sur Paramètres du pare-feu et réseau virtuel.
 
+3. Importer des données dans la base de données
+a. Télécharger et installer SQL Server Management Studio (SSMS) 
+
