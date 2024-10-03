@@ -20,3 +20,8 @@ Autorisation : Choisis le type d'autorisation (par exemple, Anonymous pour perme
 
 ![alt text](<Capture d’écran 2024-10-02 à 20.07.00.png>)
 ![alt text](<Capture d’écran 2024-10-02 à 20.07.49.png>)
+
+3. Intégrer la fonction avec Azure Storage ou Azure Queue
+ Créer un conteneur ou une file d'attente dans Azure Storage :
+Accède à Comptes de stockage dans le portail Azure.
+Sélectionne ton compte de stockage (celui associé à ton application de fonction) et crée un conteneur Blob ou une file d'attente.
