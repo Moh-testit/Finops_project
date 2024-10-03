@@ -1,10 +1,15 @@
 import json
 import time
+import os
 import random
 import requests
-
+from dotenv import load_dotenv
 from azure.storage.blob import BlobServiceClient
 
+load_dotenv()
+
+AZURE_STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING") 
+AZURE_FUNCTION_ENDPOINT = os.getenv("AZURE_FUNCTION_ENDPOINT")
 # Sample log messages
 sample_logs = [
     {"level": "INFO", "message": "User logged in", "user_id": 1},
