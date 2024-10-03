@@ -27,3 +27,11 @@ Accède à Comptes de stockage dans le portail Azure.
 Sélectionne ton compte de stockage (celui associé à ton application de fonction) et crée un conteneur Blob ou une file d'attente.
 ![alt text](<Capture d’écran 2024-10-03 à 09.22.17.png>)
 ![alt text](<Capture d’écran 2024-10-03 à 10.15.05.png>)
+
+Ajouter une liaison avec Azure Storage (Blob) :
+Dans ta fonction, accède à Intégrations et clique sur + Ajouter une liaison.
+
+Choisis Azure Blob Storage comme type de liaison :
+
+Sélectionne Entrée si tu veux lire des données depuis un blob, ou Sortie si tu veux écrire des données dans un blob.
+Configure le chemin du conteneur Blob et le nom du fichier cible (tu peux utiliser des paramètres comme {name}.txt).
