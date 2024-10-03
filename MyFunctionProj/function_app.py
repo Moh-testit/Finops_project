@@ -20,7 +20,7 @@ error_logs = [
 AZURE_FUNCTION_ENDPOINT = "https://funcazuremoh.azurewebsites.net/"
 
 # Azure Blob Storage connection string (replace with your connection string)
-AZURE_STORAGE_CONNECTION_STRING = "YOUR_AZURE_STORAGE_CONNECTION_STRING"
+AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=logsblomomo;AccountKey=riU3U4kQByJQVgV3t9yI9/6mWaghzI3WxGVESW9BCfkinF2fJCyiQPl+eART8As+f3gPr3LMRj7B+AStTOjHkA==;EndpointSuffix=core.windows.net"
 
 # Blob service client
 blob_service_client = BlobServiceClient.from_connection_string(AZURE_STORAGE_CONNECTION_STRING)
