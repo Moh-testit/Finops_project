@@ -17,7 +17,7 @@ error_logs = [
 ]
 
 # Azure Function endpoint (replace this with your function URL)
-AZURE_FUNCTION_ENDPOINT = "YOUR_AZURE_FUNCTION_URL"
+AZURE_FUNCTION_ENDPOINT = "https://funcazuremoh.azurewebsites.net/"
 
 # Azure Blob Storage connection string (replace with your connection string)
 AZURE_STORAGE_CONNECTION_STRING = "YOUR_AZURE_STORAGE_CONNECTION_STRING"
