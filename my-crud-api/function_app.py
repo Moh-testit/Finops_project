@@ -8,9 +8,7 @@ load_env()
 
 # Initialize Cosmos DB client
 COSMOS_ENDPOINT = os.getenv("COSMOS_ENDPOINT")
-COSMOS_ENDPOINT = "cosmosfuncazure.mongo.cosmos.azure.com"
 COSMOS_KEY = os.getenv("COSMOS_KEY")
-COSMOS_KEY = "oP1CBBYfzMFijlg3f7m8kab4l1Ybxiyp151cF9KBoTEDpqkpjpP2AnzX34BpJEuumnhUHskVAHpwACDbyQrVkQ=="
 client = CosmosClient(COSMOS_ENDPOINT, COSMOS_KEY)
 database = client.get_database_client('UserDatabase')
 users_container = database.get_container_client('users')
