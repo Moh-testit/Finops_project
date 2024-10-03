@@ -25,3 +25,4 @@ Autorisation : Choisis le type d'autorisation (par exemple, Anonymous pour perme
  Créer un conteneur ou une file d'attente dans Azure Storage :
 Accède à Comptes de stockage dans le portail Azure.
 Sélectionne ton compte de stockage (celui associé à ton application de fonction) et crée un conteneur Blob ou une file d'attente.
+![alt text](<Capture d’écran 2024-10-03 à 09.22.17.png>)
