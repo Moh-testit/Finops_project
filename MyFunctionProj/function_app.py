@@ -1,16 +1,12 @@
 import json
-import time
-import os
-import random
 from azure.storage.blob import BlobServiceClient
 import azure.functions as func
 from azure.cosmos import CosmosClient, exceptions
 
 
-# # Azure Function endpoint (replace this with your function URL)
+# Azure Function endpoint (replace this with your function URL)
 AZURE_FUNCTION_ENDPOINT = "https://funcazuremoh.azurewebsites.net/"
 
-# Azure Blob Storage connection string (replace with your connection string)
 AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=logsblomomo;AccountKey=riU3U4kQByJQVgV3t9yI9/6mWaghzI3WxGVESW9BCfkinF2fJCyiQPl+eART8As+f3gPr3LMRj7B+AStTOjHkA==;EndpointSuffix=core.windows.net"
 
 COSMOS_ENDPOINT = "cosmosfuncazure.mongo.cosmos.azure.com"
@@ -21,7 +17,6 @@ database = client.get_database_client('UserDatabase')
 users_container = database.get_container_client('users')
 
 
-# Function to handle user creation (POST)
 def create_user(request_json):
     try:
         user_data = request_json.get('data')
@@ -74,9 +69,6 @@ def delete_user(request_json):
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    # Parse the request body
-    # simulate_log_stream()
-
     request_json = req.get_json(silent=True)
 
     # CRUD Operation Handlers
@@ -88,5 +80,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return update_user(request_json)
     elif req.method == 'DELETE':
         return delete_user(request_json)
-    else:
-        return func.HttpResponse('Method not supported!', status_code=400)
+    
+    return func.HttpResponse('Method not supported!', status_code=400)
