@@ -35,3 +35,6 @@ Choisis Azure Blob Storage comme type de liaison :
 
 Sélectionne Entrée si tu veux lire des données depuis un blob, ou Sortie si tu veux écrire des données dans un blob.
 Configure le chemin du conteneur Blob et le nom du fichier cible (tu peux utiliser des paramètres comme {name}.txt).
+
+4. Surveiller la performance et les journaux des fonctions
+ Accéder à la surveillance dans le portail Azure :
