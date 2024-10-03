@@ -38,3 +38,4 @@ Configure le chemin du conteneur Blob et le nom du fichier cible (tu peux utilis
 
 4. Surveiller la performance et les journaux des fonctions
  Accéder à la surveillance dans le portail Azure :
+ ![alt text](<Capture d’écran 2024-10-03 à 10.23.48.png>)
