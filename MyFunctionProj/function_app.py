@@ -1,16 +1,14 @@
 import json
-from azure.storage.blob import BlobServiceClient
 import azure.functions as func
 from azure.cosmos import CosmosClient, exceptions
 
 
-# Azure Function endpoint (replace this with your function URL)
-AZURE_FUNCTION_ENDPOINT = "https://funcazuremoh.azurewebsites.net/"
+
 
 AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=logsblomomo;AccountKey=riU3U4kQByJQVgV3t9yI9/6mWaghzI3WxGVESW9BCfkinF2fJCyiQPl+eART8As+f3gPr3LMRj7B+AStTOjHkA==;EndpointSuffix=core.windows.net"
 
-COSMOS_ENDPOINT = "cosmosfuncazure.mongo.cosmos.azure.com"
-COSMOS_KEY = "oP1CBBYfzMFijlg3f7m8kab4l1Ybxiyp151cF9KBoTEDpqkpjpP2AnzX34BpJEuumnhUHskVAHpwACDbyQrVkQ=="
+COSMOS_ENDPOINT = "https://globfuncazure.documents.azure.com:443/"
+COSMOS_KEY = "o7ydp1xyYA4EvkkgAJ3g1tIDPgVVhdXP7BhuVdx6MHh1jEn2KDEYXDtBfp7pfnsRrqVGC3nucsObACDbVa5HGw=="
 
 client = CosmosClient(COSMOS_ENDPOINT, COSMOS_KEY)
 database = client.get_database_client('UserDatabase')

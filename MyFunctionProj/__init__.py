@@ -1,5 +1,4 @@
 import json
-from azure.storage.blob import BlobServiceClient
 import azure.functions as func
 from azure.cosmos import CosmosClient, exceptions
 
@@ -9,7 +8,7 @@ AZURE_FUNCTION_ENDPOINT = "https://funcazuremoh.azurewebsites.net/"
 
 AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=logsblomomo;AccountKey=riU3U4kQByJQVgV3t9yI9/6mWaghzI3WxGVESW9BCfkinF2fJCyiQPl+eART8As+f3gPr3LMRj7B+AStTOjHkA==;EndpointSuffix=core.windows.net"
 
-COSMOS_ENDPOINT = "cosmosfuncazure.mongo.cosmos.azure.com"
+COSMOS_ENDPOINT = "https://cosmosfuncazure.mongo.cosmos.azure.com:443/"
 COSMOS_KEY = "oP1CBBYfzMFijlg3f7m8kab4l1Ybxiyp151cF9KBoTEDpqkpjpP2AnzX34BpJEuumnhUHskVAHpwACDbyQrVkQ=="
 
 client = CosmosClient(COSMOS_ENDPOINT, COSMOS_KEY)
